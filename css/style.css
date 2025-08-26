@@ -1,14 +1,14 @@
 @font-face{
-  src: url(Fonts/Montserrat-Regular.ttf)format('truetype');
   font-family: Montserrat;
+  src: url('../fonts/Montserrat-Regular.ttf')format('truetype');
 }
 @font-face{
-  src: url(Fonts/Poppins-Regular.ttf)format('truetype');
   font-family: Poppins;
+  src: url('../fonts/Poppins-Regular.ttf')format('truetype');
 }
 @font-face{
-  src: url(Fonts/Coolvetica\ Rg.otf)format('opentype');
   font-family: Coolvetica;
+  src: url('../fonts/Coolvetica Rg.otf')format('opentype');
 }
 
 body {
