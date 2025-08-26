@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Casa Noir</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Redirect after 5 seconds
+        setTimeout(function() {
+            window.location.href = "index.html";
+        }, 5000);
+    </script>
+</head>
+<body>
+    <div class="site-wrapper">
+    <div class="thankyou-container">
+        <div class="thankyou-card">
+            <h1>Thank You!</h1>
+            <p>Your message has been sent successfully. We’ll get back to you shortly.</p>
+            <p class="redirect-text">Redirecting you to the home page in <span id="countdown">5</span> seconds...</p>
+            <a href="index.html" class="btn">Return to Home</a>
+        </div>
+    </div>
+
+    <script>
+        // Countdown display
+        let seconds = 5;
+        const countdownElem = document.getElementById("countdown");
+        setInterval(function() {
+            seconds--;
+            countdownElem.textContent = seconds;
+        }, 1000);
+    </script>
+    </div>
+</body>
+</html>

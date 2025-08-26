@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Casa Noir</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+
+  <header>
+    <a href="index.html" class=logo><img src="casa-noir-logo (1).png" width="150px" alt="Casa Noir" class="logo-img"></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="gallery fade-in delay-1">
+    <h1>Our Gallery</h1>
+      <div class="infinite-slider">
+    <div class="infinite-track">
+         <div class="img-wrapper"><img src="images/casanoirburgerandchips.jpg" alt="Casa Noir Burger"></div>
+         <div class="img-wrapper"><img src="images/casanoirrossopadel.jpg" alt="Casa Noir Rosso Padel"></div>
+         <div class="img-wrapper"><img src="images/casanoirtoastedsandwich.jpg" alt="Casa Noir Sandwich"></div>
+         <div class="img-wrapper"><img src="images/casanoirburgerrandchipss.jpg" alt="Casa Noir Burger"></div>
+         <div class="img-wrapper"><img src="images/cigar.jpg" alt="Casa Noir Cigar"></div>
+         <div class="img-wrapper"><img src="images/casanoirfood.jpg" alt="Casa Noir Food"></div>
+           <!-- Duplicates for infinite scroll -->
+         <div class="img-wrapper"><img src="images/casanoirburgerandchips.jpg" alt="Casa Noir Burger 2"></div>
+         <div class="img-wrapper"><img src="images/casanoirrossopadel.jpg" alt="Casa Noir Rosso Padel"></div>
+         <div class="img-wrapper"><img src="images/casanoirtoastedsandwich.jpg" alt="Casa Noir Sandwich"></div>
+         <div class="img-wrapper"><img src="images/casanoirburgerrandchipss.jpg" alt="Casa Noir Burger"></div>
+         <div class="img-wrapper"><img src="images/cigar.jpg" alt="Casa Noir Cigar"></div>
+         <div class="img-wrapper"><img src="images/casanoirfood.jpg" alt="Casa Noir Food 2"></div>
+
+       </div>
+</section>
+
+<section class="gallery-scroll fade-in delay-1">
+<div class="scroll-row">
+        <a href="images/casanoirburgerandchips.jpg" class="glightbox" data-gallery="casanoir"><img src="images/casanoirburgerandchips.jpg" alt="Casa Noir Burger"></a>
+        <a href="images/casanoirrossopadel.jpg" class="glightbox" data-gallery="casanoir"><img src="images/casanoirrossopadel.jpg" alt="Casa Noir Rosso Padel"></a>
+        <a href="images/casanoirtoastedsandwich.jpg" class="glightbox" data-gallery="casanoir"><img src="images/casanoirtoastedsandwich.jpg" alt="Casa Noir Sandwich"></a>
+        <a href="images/casanoirburgerrandchipss.jpg" class="glightbox" data-gallery="casanoir"><img src="images/casanoirburgerrandchipss.jpg" alt="Casa Noir Burger"></a>
+        <a href="images/cigar.jpg" class="glightbox" data-gallery="casanoir"><img src="images/cigar.jpg" alt="Cigar"></a>
+        <a href="images/casanoirfood.jpg" class="glightbox" data-gallery="casanoir"><img src="images/casanoirfood.jpg" alt="Casa Noir Food"></a>
+</div>
+</section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Casa Noir. All rights reserved.</p>
+      <p>Follow us: 
+        <a href="https://www.instagram.com/casanoir_southafrica" target="tab1">Instagram</a> | 
+        <a href="https://www.tiktok.com/@casa.noir.south.a" target="tab2">TikTok</a> 
+      </p>
+      <p>Contact us:
+      <a href="tel:+27836386078" target="tab3">+27 83 638 6078</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script>
+    const lightbox = GLightbox({
+      selector: '.glightbox',
+      loop: true,
+      touchNavigation: true,
+      keyboardNavigation: true,
+      zoomable: true
+    });
+  </script>
+
+  </div>
+
+</body>
+</html>
