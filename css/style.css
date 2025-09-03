@@ -848,6 +848,17 @@ nav a:active {
     margin-top: 20px;
   }
 
+  .about-hero{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .story-section{
+    padding: 20px;
+    text-align: center;
+  }
+
   /* Features Section */
   .features {
     flex-direction: column;
